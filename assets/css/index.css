@@ -25,9 +25,10 @@ body{
 }
 #text2{
     display: inline-block;
-    color: blanchedalmond;
+    color: white;
+    font-size: 15px;
     background-color: black;
-    padding: 0rem 0.5rem;
+    padding: 2px 5px;
     margin:1rem 0rem;
     font-family: 'Raleway', sans-serif;
 }
@@ -40,7 +41,9 @@ justify-content: center;
 align-items: flex-start;
 margin-left: 15px;
 margin-top: 50px;
+padding-bottom: 80px;
 font-family: 'Raleway', sans-serif;
+box-shadow: 5px 10px 18px #888888;
 
 }
 #image{
@@ -58,7 +61,26 @@ h2{
     margin-left: 10px;
     font-size: 18px;
 }
-
 .p{
+    font-size: 15px;
+}
+
+.caption{
     margin-left: 10px;
+}
+
+.buttons{
+    margin-top: 40px;
+}
+.Button1{
+   border: 1px solid gray;
+   padding: 12px 24px;
+   margin-right: 5px;
+   
+}
+.Button2{
+   display: none;
+}
+.counter{
+  display: none;
 }
